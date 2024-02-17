@@ -8,7 +8,7 @@ inspired by https://github.com/cookpete/git-checkout-interactive/tree/master, a 
 
 
 ## Install
-    cargo install gci
+    cargo install git-checkout-interactive
 
 ## Release/Publish to crates.io
     cargo bump --git-tag && git push --tags

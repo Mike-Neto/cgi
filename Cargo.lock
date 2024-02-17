@@ -89,7 +89,7 @@ dependencies = [
 
 [[package]]
 name = "git-checkout-interactive"
-version = "1.0.2"
+version = "1.0.3"
 dependencies = [
  "anyhow",
  "dialoguer",
