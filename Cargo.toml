@@ -2,6 +2,12 @@
 name = "gci"
 version = "1.0.1"
 edition = "2021"
+description = "cli to switch between locally checked out branches interactively"
+license = "MIT"
+repository = "https://github.com/Mike-Neto/cgi"
+keywords = ["git", "checkout", "branch"]
+categories = ["command-line-utilities"]
+readme = "README.MD"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
