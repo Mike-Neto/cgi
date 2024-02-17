@@ -1,5 +1,5 @@
 [package]
-name = "gci"
+name = "git-checkout-interactive"
 version = "1.0.2"
 edition = "2021"
 description = "cli to switch between locally checked out branches interactively"
@@ -10,6 +10,10 @@ categories = ["command-line-utilities"]
 readme = "README.MD"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "gci"
+path = "src/main.rs"
 
 [dependencies]
 anyhow = { version = "1.0.79" }

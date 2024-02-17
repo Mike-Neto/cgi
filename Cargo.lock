@@ -88,8 +88,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "gci"
-version = "1.0.1"
+name = "git-checkout-interactive"
+version = "1.0.2"
 dependencies = [
  "anyhow",
  "dialoguer",
