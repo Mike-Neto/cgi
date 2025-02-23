@@ -1,7 +1,7 @@
 [package]
 name = "git-checkout-interactive"
 version = "1.0.4"
-edition = "2021"
+edition = "2024"
 description = "cli to switch between locally checked out branches interactively"
 license = "MIT"
 repository = "https://github.com/Mike-Neto/cgi"
@@ -16,6 +16,6 @@ name = "gci"
 path = "src/main.rs"
 
 [dependencies]
-anyhow = { version = "1.0.79" }
+anyhow = { version = "1.0.96" }
 dialoguer = { version = "0.11.0" }
-git2 = { version = "0.18.2", default-features = false }
+git2 = { version = "0.20.0", default-features = false }

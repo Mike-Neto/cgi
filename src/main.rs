@@ -39,8 +39,9 @@ fn main() -> anyhow::Result<()> {
             let branch = repo.find_branch(items[selection], BranchType::Local)?;
             if let Some(name) = branch.get().name() {
                 let target = branch.get().peel_to_commit()?;
-                repo.checkout_tree(&target.as_object(), None)?;
+                repo.checkout_tree(target.as_object(), None)?;
                 repo.set_head(name)?;
+                // TODO this works but makes it so when I push it counts all elements
             }
         } else {
             println!("canceled selection")
