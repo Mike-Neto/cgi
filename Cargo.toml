@@ -1,6 +1,6 @@
 [package]
 name = "git-checkout-interactive"
-version = "1.0.7"
+version = "1.0.8"
 edition = "2024"
 description = "cli to switch between locally checked out branches interactively"
 license = "MIT"
