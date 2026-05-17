@@ -12,8 +12,8 @@ inspired by https://github.com/cookpete/git-checkout-interactive/tree/master, a 
 
 ## Release/Publish to crates.io
 
-    cargo bump --git-tag && git push --tags
+    cargo bump --git-tag # Then you need to add and amend the cargo.lock
 
 ## All checks
 
-    cargo build && cargo test && cargo bench && cargo fmt --check && cargo doc && cargo clippy && cargo clippy --all -- -W clippy::all -W clippy::correctness -W clippy::suspicious -W clippy::style -W clippy::complexity -W clippy::perf -W clippy::pedantic -W clippy::nursery -W clippy::cargo
+    cargo build && cargo test && cargo bench && cargo fmt --check && cargo doc && cargo clippy
