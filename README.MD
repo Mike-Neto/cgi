@@ -12,7 +12,7 @@ inspired by https://github.com/cookpete/git-checkout-interactive/tree/master, a 
 
 ## Release/Publish to crates.io
 
-    cargo bump --git-tag # Then you need to add and amend the cargo.lock
+    cargo bump --git-tag && git add . && git commit --amend && git push --tags
 
 ## All checks
 
